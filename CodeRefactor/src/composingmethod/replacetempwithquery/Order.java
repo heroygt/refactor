@@ -19,3 +19,4 @@ public class Order {
 		return basePrice * discountFactor;
 	}
 }
+

@@ -16,6 +16,7 @@ package movingfeature.movemethod;
  *  4. delete "final int daysOverdrawn = daysOverdrawn;" then [Move method]
  */
 public class Account {
+
 	double overdraftCharge() {
 		if (_type.isPremium()) {
 			double result = 10;
